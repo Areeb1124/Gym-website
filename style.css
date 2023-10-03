@@ -1,0 +1,103 @@
+.left {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 100px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 29px auto;
+   /* border: 2px solid green;*/
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 28px;
+    display: inline-block;
+   /* border: 2px solid yellow; */
+}
+
+.Navbar {
+    display: inline;
+}
+
+.Navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.Navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.Navbar li a:hover,
+.Navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'BalsamiqSans', 'regular';
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(65, 63, 63);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 120px 600px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'BalsamiqSans', 'regular';
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+
+}
+
+.container h1 {
+    text-align: center;
+
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+
+}
